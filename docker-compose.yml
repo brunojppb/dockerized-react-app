@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+  my_react_app:
+    build:
+      context: .
+    ports:
+      - '8000:80'
